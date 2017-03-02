@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NOTE: To ensure compatibility between your software and future F/T calibrations -->
+<!-- (such as recalibrations of your transducer or future purchases),                -->
+<!-- ATI does not support parsing of this file.  The only supported methods for      -->
+<!-- loading calibration data are the ATIDAQFT ActiveX component, the ATI DAQ F/T C  -->
+<!-- Library, and the ATICombinedDAQFT .NET Assembly.                                -->
+<FTSensor  Serial="FT11315" BodyStyle="Nano17" Family="DAQ" NumGages="6" CalFileVersion="1.0">
+	<Calibration  PartNumber="SI-25-0.25" CalDate="8/16/2011" ForceUnits="N" TorqueUnits="N-mm" DistUnits="mm" OutputMode="Ground Referenced Differential" OutputRange="20" HWTempComp="True" GainMultiplier="1" CableLossDetection="False" OutputBipolar="True">
+		<Axis Name="Fx" values="  0.14744   0.13303   2.39478 -38.51114  -1.33727  38.09234 " max="25" scale="11.3650042049178"/>
+		<Axis Name="Fy" values=" -0.78561  43.84697   1.37360 -22.33298   1.24768 -21.93060 " max="25" scale="11.3650042049178"/>
+		<Axis Name="Fz" values=" 22.18130   0.37343  21.90322   0.36081  22.16096   0.28548 " max="35" scale="5.89341666193018"/>
+		<Axis Name="Tx" values="  0.00277   0.03294  38.14962   0.55812 -37.74662  -0.48650 " max="250" scale="1.82292883446332"/>
+		<Axis Name="Ty" values="-44.09664  -0.71124  21.36408   0.55729  22.05900   0.02542 " max="250" scale="1.82292883446332"/>
+		<Axis Name="Tz" values=" -0.08607  21.80201  -1.70734  21.61999  -0.82512  22.18628 " max="250" scale="1.57420173377595"/>
+		<BasicTransform Dx="0" Dy="0" Dz="6.096" Rx="0" Ry="0" Rz="0"/>
+	</Calibration>
+</FTSensor>
+

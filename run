@@ -1,0 +1,13 @@
+#!/bin/sh
+MODULES=$prefix/modules
+
+echo "*** EXECTIME (user) ***"
+echo "Now start the realtime process <enter>,"
+read junk
+
+$SUDO ./TSAControl -PID 0.75 0.0 0.02 -AdmPara 0.5 1.0 0.015 0.025 -stiffness 0.05 -damper 0.3  # Fixed stiffness
+
+echo
+echo "Done. Press <enter> to remove the modules."
+read junk
+
